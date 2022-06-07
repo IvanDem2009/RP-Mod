@@ -1,0 +1,8 @@
+type: Wall
+localizedName: Керамическая стена
+health: 240
+category: defense
+research: copper-wall
+requirements: [
+  lead/1
+]

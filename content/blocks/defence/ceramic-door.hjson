@@ -1,0 +1,14 @@
+{
+  type: Door
+  name: Керамическая дверь
+  size: 1
+  health: 240
+  category: defense
+  requirements:
+  [
+    {
+      item: lead
+      amount: 5
+    }
+  ]
+}

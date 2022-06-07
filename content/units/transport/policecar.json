@@ -1,0 +1,58 @@
+{
+    "type": "mech",
+    "localizedName": "Полицейский автомобиль",
+    "hitSize": 32,
+    "speed": 3,
+    "rotateSpeed": 5,
+    "health": 520,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "weapons": [
+    	{
+    		"name": "ar",
+    		"reload": 5,
+    		"mirror": false,
+    		"x": 1.5,
+    		"y": 2,
+            "shootX": 1.5,
+            "shootY": 2,
+            "shots": 3,
+    		"bullet": {
+    			"damage": 6,
+    			"lifetime": 40,
+    			"knockback": 0.3,
+    			"speed": 5
+    		}
+    	}
+    ],
+
+
+    "abilities": [
+  {
+    type: MoveLightningAbility
+    minSpeed: 0
+    maxSpeed: 0
+    damage: 120
+    chance: 1
+    length: 1
+    color: 00000000
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      layer: 99
+      particles: 1
+      sizeFrom: 0
+      sizeTo: 0
+      length: 0.01
+      lifetime: 15
+      colorFrom: fffffff25
+      colorTo: ffffff00
+    }
+  }
+]
+}

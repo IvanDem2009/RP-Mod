@@ -1,0 +1,30 @@
+{
+    "type": "mech",
+    "localizedName": "Полицейский",
+    "hitSize": 16,
+    "speed": 2,
+    "rotateSpeed": 5,
+    "health": 360,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "weapons": [
+    	{
+    		"name": "pistol",
+    		"reload": 50,
+    		"mirror": false,
+    		"x": 1.5,
+    		"y": 2,
+            "shootX": 1.5,
+            "shootY": 2,
+    		"bullet": {
+    			"damage": 70,
+    			"lifetime": 40,
+    			"knockback": 0.3,
+    			"speed": 5
+    		}
+    	}]}

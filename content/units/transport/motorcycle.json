@@ -1,0 +1,38 @@
+{
+    "type": "mech",
+    "localizedName": "Мотоцикл",
+    "hitSize": 16,
+    "speed": 3,
+    "rotateSpeed": 5,
+    "health": 290,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "abilities": [
+  {
+    type: MoveLightningAbility
+    minSpeed: 0
+    maxSpeed: 0
+    damage: 120
+    chance: 1
+    length: 1
+    color: 00000000
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      layer: 99
+      particles: 1
+      sizeFrom: 0.1
+      sizeTo: 0.1
+      length: 0.01
+      lifetime: 15
+      colorFrom: fffffff25
+      colorTo: ffffff00
+    }
+  }
+]
+}

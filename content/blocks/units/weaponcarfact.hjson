@@ -1,0 +1,43 @@
+type: UnitFactory
+size: 2
+itemCapacity: 500
+localizedName: Магазин транспорта-оружия
+  hasShadow: false
+  solid: false
+consumes: {
+  power: 0
+}
+plans: [
+  {
+    unit: policecar
+    time: 1000
+    requirements: [
+      silicon/50
+    ]
+  }
+  {
+    unit: policealert
+    time: 1000
+    requirements: [
+      silicon/50
+    ]
+  }
+  {
+    unit: policetagun
+    time: 1000
+    requirements: [
+      silicon/75
+    ]
+  }
+  {
+    unit: tank
+    time: 1000
+    requirements: [
+      silicon/250
+    ]
+  }
+]
+requirements: [
+  lead/1
+]
+category: units

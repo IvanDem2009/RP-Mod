@@ -1,0 +1,31 @@
+{
+    "type": "mech",
+    "localizedName": "Человек с дробовиком",
+    "hitSize": 16,
+    "speed": 0.6,
+    "rotateSpeed": 1,
+    "health": 240,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "weapons": [
+    	{
+    		"name": "shotgun",
+    		"reload": 80,
+    		"mirror": false,
+    		"shootX": 2,
+    		"shootY": 3,
+    		"x": 1.5,
+    		"y": 2,
+    		"bullet": {
+    			"type": "ShrapnelBulletType",
+                "damage": 120,
+                "length": 40,
+                "width": 10,
+                "toColor": "ffffff"
+    		}
+    	}]}

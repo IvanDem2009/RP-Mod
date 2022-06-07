@@ -1,0 +1,31 @@
+{
+    "type": "mech",
+    "localizedName": "Человек с УЗИ",
+    "hitSize": 16,
+    "speed": 1.5,
+    "rotateSpeed": 5,
+    "health": 240,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "weapons": [
+    	{
+    		"name": "pistol",
+    		"reload": 10,
+    		"mirror": false,
+    		"x": 1.5,
+    		"y": 2,
+            "shootX": 1.5,
+            "shootY": 2,
+            "shots": 3,
+    		"bullet": {
+    			"damage": 10,
+    			"lifetime": 40,
+    			"knockback": 0.3,
+    			"speed": 5
+    		}
+    	}]}

@@ -1,0 +1,43 @@
+type: UnitFactory
+size: 2
+itemCapacity: 500
+localizedName: Магазин продвинутого оружия
+  hasShadow: false
+  solid: false
+consumes: {
+  power: 0
+}
+plans: [
+  {
+    unit: policeman
+    time: 1000
+    requirements: [
+      silicon/50
+    ]
+  }
+  {
+    unit: humanwithfrs
+    time: 1000
+    requirements: [
+      silicon/200
+    ]
+  }
+  {
+    unit: humanwithhfrs
+    time: 1000
+    requirements: [
+      silicon/250
+    ]
+  }
+  {
+    unit: humanwithawp
+    time: 1000
+    requirements: [
+      silicon/250
+    ]
+  }
+]
+requirements: [
+  lead/1
+]
+category: units

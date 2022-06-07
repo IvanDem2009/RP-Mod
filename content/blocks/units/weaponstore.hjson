@@ -1,0 +1,50 @@
+type: UnitFactory
+localizedName: Магазин оружия
+itemCapacity: 200
+size: 2
+  hasShadow: false
+  solid: false
+consumes: {
+  power: 0
+}
+plans: [
+  {
+    unit: humanwithuzi
+    time: 1000
+    requirements: [
+      silicon/100
+    ]
+  }
+  {
+    unit: humanwithpistol
+    time: 1000
+    requirements: [
+      silicon/40
+    ]
+  }
+  {
+    unit: humanwithump
+    time: 1000
+    requirements: [
+      silicon/60
+    ]
+  }
+  {
+    unit: humanwithar
+    time: 1000
+    requirements: [
+      silicon/70
+    ]
+  }
+  {
+    unit: humanwithpistol
+    time: 1000
+    requirements: [
+      silicon/100
+    ]
+  }
+]
+requirements: [
+  lead/1
+]
+category: units

@@ -1,0 +1,14 @@
+{
+  type: Door
+  name: Большая керамическая дверь
+  size: 2
+  health: 240
+  category: defense
+  requirements:
+  [
+    {
+      item: lead
+      amount: 5
+    }
+  ]
+}

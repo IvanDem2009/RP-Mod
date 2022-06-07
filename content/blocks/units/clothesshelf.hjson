@@ -1,0 +1,22 @@
+type: UnitFactory
+size: 2
+localizedName: Гардероб
+description: Одежду добавлю потом
+  hasShadow: false
+  solid: false
+consumes: {
+  power: 0
+}
+plans: [
+  {
+    unit: human
+    time: 1000
+    requirements: [
+      silicon/1
+    ]
+  }
+]
+requirements: [
+  lead/1
+]
+category: units

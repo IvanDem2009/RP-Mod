@@ -1,0 +1,25 @@
+{
+    "type": "mech",
+    "localizedName": "Человек",
+    "hitSize": 16,
+    "speed": 2.5,
+    "rotateSpeed": 5,
+    "health": 240,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "weapons": [
+    	{
+    		"name": "hand",
+    		"reload": 40,
+    		"mirror": true,
+    		"bullet": {
+    			"damage": 40,
+    			"lifetime": 5,
+    			"knockback": 1
+    		}
+    	}]}

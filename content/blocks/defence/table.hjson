@@ -1,0 +1,9 @@
+type: Wall
+localizedName: Стол
+size: 2
+health: 120
+category: defense
+research: copper-wall
+requirements: [
+  lead/1
+]

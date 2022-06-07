@@ -1,0 +1,33 @@
+{
+    "type": "mech",
+    "localizedName": "Человек с огнеметом",
+    "hitSize": 16,
+    "speed": 1,
+    "rotateSpeed": 3,
+    "health": 240,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "burning"
+    ],
+    "weapons": [
+    	{
+    		"name": "frs",
+    		"reload": 5,
+    		"mirror": false,
+    		"x": 1.5,
+    		"y": 2,
+            "shootX": 1.5,
+            "shootY": 2,
+            "shots": 3,
+    		"bullet": {
+    			"type": "FireBulletType",
+    			"damage": 50,
+    			"status": "burning",
+    			"statusDuration": 1000,
+    			"length": 150,
+    			"knockback": 0.3,
+    		}
+    	}]}

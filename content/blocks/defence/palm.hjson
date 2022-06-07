@@ -1,0 +1,7 @@
+type: Wall
+health: 120
+category: defense
+research: copper-wall
+requirements: [
+  lead/1
+]

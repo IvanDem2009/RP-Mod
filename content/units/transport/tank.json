@@ -1,0 +1,39 @@
+{
+    "type": "mech",
+    "localizedName": "Танк",
+    "hitSize": 65,
+    "speed": 0.5,
+    "rotateSpeed": 1,
+    "health": 3600,
+    "armor": 50,
+    "buildSpeed": 0,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "weapons": [
+      {
+        "name": "tankweapon",
+        "reload": 80,
+        "mirror": false,
+        "bullet": {
+          "type": "ArtilleryBulletType",
+          "damage": 5,
+          "lifetime": 150,
+          "speed": 4,
+          "fragBullets": 12,
+   		 "fragLifeMin": 0.2,
+    	"fragBullet": {
+      damage: 120,
+      speed: 2,
+      lifetime: 60,
+      height: 12,
+      width: 9
+    }
+  }
+        }
+      ]
+
+  
+}

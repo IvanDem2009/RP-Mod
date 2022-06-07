@@ -1,0 +1,8 @@
+name: "rpmod"
+displayName: "RP Mod"
+author: "IvanDem#1021"
+descriprion: "JSON mod with rp stuff"
+version: "1.0"
+minGameVersion: "134"
+dependencies: []
+hidden: true

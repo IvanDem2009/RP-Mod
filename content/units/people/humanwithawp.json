@@ -1,0 +1,30 @@
+{
+    "type": "mech",
+    "localizedName": "Человек со снайперской винтовкой",
+    "hitSize": 16,
+    "speed": 0.3,
+    "rotateSpeed": 0.5,
+    "health": 240,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "weapons": [
+    	{
+    		"name": "awp",
+    		"reload": 140,
+    		"mirror": false,
+    		"x": 2.5,
+    		"y": 2,
+    		"bullet": {
+    			"type": "BasicBulletType",
+    			"speed": 6,
+    			"lifetime": 100,
+                "damage": 230,
+                "length": 40,
+                "width": 10,
+    		}
+    	}]}

@@ -1,0 +1,38 @@
+{
+    "type": "mech",
+    "localizedName": "Машина",
+    "hitSize": 32,
+    "speed": 2.5,
+    "rotateSpeed": 5,
+    "health": 480,
+    "armor": 50,
+    "buildSpeed": 1,
+    "lightRadius": 120,
+    "lightColor": "ff0011",
+    "immunities": [
+        "blasted"
+    ],
+    "abilities": [
+  {
+    type: MoveLightningAbility
+    minSpeed: 0
+    maxSpeed: 0
+    damage: 120
+    chance: 1
+    length: 1
+    color: 00000000
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      layer: 99
+      particles: 1
+      sizeFrom: 0
+      sizeTo: 0
+      length: 0.01
+      lifetime: 15
+      colorFrom: fffffff25
+      colorTo: ffffff00
+    }
+  }
+]
+}

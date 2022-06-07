@@ -1,0 +1,14 @@
+{
+  type: Door
+  name: Металлическая дверь
+  size: 2
+  health: 300
+  category: defense
+  requirements:
+  [
+    {
+      item: lead
+      amount: 5
+    }
+  ]
+}
